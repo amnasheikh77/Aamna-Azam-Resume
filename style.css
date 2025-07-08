@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.resume {
+    width: 80%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+}
+
+h1 {
+    margin-left: 30px;
+    text-align: left;
+    color: #093FB4;
+}
+.details {
+    text-align: right;
+    color: #093FB4;
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+h2 {
+    margin-left: 30px;
+    color: #093FB4;
+}
+
+.obj-para {
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-left: 30px;
+    color: #40534C;
+}
+
+.expe-details {
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+.skills {
+    display: flex;
+    margin-right: 170px;
+    justify-content: space-between;
+}
+
+.certify {
+    display: flex;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+
+.my-info {
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+.web-links {
+    color: #393E46;
+}
+li {
+    color: #393E46;
+    padding-left: auto;
+    margin-left: 30px;
+    font-size: 16px;
+    list-style: disc;
+}
+
+hr {
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 2px;
+    background-color: #093FB4;
+}
